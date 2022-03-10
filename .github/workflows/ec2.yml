@@ -49,8 +49,8 @@ jobs:
     - name: Take Backup
       run: cp -R /var/www/html/test_cicd /var/www/html/cicd_backup/test_cicd  
       
-    #- name: Copy Lates Code
-    #  run: cp -R /var/www/html/test_cicd /var/www/html/cicd_backup/test_cicd    
+    - name: Copy Lates Code
+      run: cp -R /var/www/html/actions-runner/test_deploy/test_github_cicd/test_github_cicd /var/www/html/test_cicd    
       
       
       
