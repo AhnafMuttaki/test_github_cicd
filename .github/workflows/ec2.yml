@@ -43,6 +43,9 @@ jobs:
     - name: Go to Project Folder
       run: cd /var/www/html/test_cicd
       
+    - name: Print current path
+      run: pwd
+    
     - name: Pull latest code
       run: git pull origin main
       
