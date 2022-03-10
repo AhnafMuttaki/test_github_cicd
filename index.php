@@ -1,3 +1,3 @@
 <?php
 
-echo "success test";
+echo "success testing live";
