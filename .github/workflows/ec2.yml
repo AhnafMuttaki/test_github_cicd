@@ -41,16 +41,16 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Go to Project Folder
-      run: cd /var/www/html/test_cicd
+      run: cd /var/www/html/test_github_cicd
       
     - name: Print current path
       run: pwd
       
     - name: Take Backup
-      run: cp -R /var/www/html/test_cicd /var/www/html/cicd_backup/test_cicd  
+      run: cp -R /var/www/html/test_github_cicd /var/www/html/cicd_backup/test_github_cicd  
       
     - name: Copy Lates Code
-      run: cp -R /var/www/html/actions-runner/test_deploy/test_github_cicd/test_github_cicd /var/www/html/test_cicd    
+      run: cp -R /var/www/html/actions-runner/test_deploy/test_github_cicd/test_github_cicd /var/www/html/test_github_cicd    
       
       
       
